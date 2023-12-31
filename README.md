@@ -5,3 +5,5 @@ page you wish to see at the end of the URL above.
 
 For example, [https://lcordier.github.io/blog/20231231](https://lcordier.github.io/blog/20231231)
 
+See or clone the blog items [here](https://github.com/lcordier/blog).
+
