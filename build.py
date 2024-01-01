@@ -19,7 +19,7 @@ if __name__ == '__main__':
         match = REGEX.match(item)
         if match:
             blog = os.path.splitext(item)[0]
-            items.append(f'* [https://lcordier.github.io/blog/{blog}](https://lcordier.github.io/blog/{blog})')
+            items.append(f'* [{blog}](https://lcordier.github.io/blog/{blog})')
 
     # Hehe, oldschool...
     open('README.md', 'w').write(header + '\n'.join(items) + footer)
