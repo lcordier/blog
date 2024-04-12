@@ -7,5 +7,5 @@
 * [2024-01-01](https://lcordier.github.io/blog/20240101)
 * [2023-12-31](https://lcordier.github.io/blog/20231231)
 
-Clone this blog [here](https://github.com/lcordier/blog).
+<!-- Clone this blog [here](https://github.com/lcordier/blog). -->
 
