@@ -8,14 +8,23 @@ import os
 import re
 
 REGEX = re.compile('\d{8}.md')
+TAG = re.compile('<.*?>')
+
+
+def strip_tags(line):
+    """ Strip HTML tags.
+    """
+    return TAG.sub('', line)
 
 
 def title(path):
+    """ Extract first H1 line.
+    """
     with open(path, 'r') as f:
         for line in f:
             line = line.strip()
             if line.startswith('# '):
-                return line[2:]
+                return strip_tags(line[2:])
     return ''
 
 
