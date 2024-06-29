@@ -9,6 +9,16 @@ import re
 
 REGEX = re.compile('\d{8}.md')
 
+
+def title(path):
+    with open(path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if line.startswith('# '):
+                return line[2:]
+    return ''
+
+
 if __name__ == '__main__':
 
     header = open('header.md', 'r').read()
@@ -21,7 +31,8 @@ if __name__ == '__main__':
         if match:
             blog = os.path.splitext(item)[0]
             date = datetime.datetime.strptime(blog, '%Y%m%d').strftime('%Y-%m-%d')
-            items.append(f'* [{date}](https://lcordier.github.io/blog/{blog})')
+            desc = title(item)
+            items.append(f'* [{date}](https://lcordier.github.io/blog/{blog}) {desc}')
 
     # Hehe, oldschool...
     open('README.md', 'w').write(header + '\n'.join(items) + footer)
