@@ -8,4 +8,4 @@
 
 
 
-<img src="https://louiscordier.com/fin.jpg?blog=2024">
+<img src="https://louiscordier.com/fin.jpg?blog=2024" style="width: 25%; display: block; margin: 0 auto;">
