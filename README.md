@@ -1,4 +1,4 @@
-# Blogging is sooo easy, money for nothing and the chicks for free ;)
+# Blogging is sooo easy ;)
 
 
 * [2025-02-01](https://lcordier.github.io/blog/20250201) Blue team in the 90's

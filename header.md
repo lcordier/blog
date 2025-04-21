@@ -1,3 +1,3 @@
-# Blogging is sooo easy, money for nothing and the chicks for free ;)
+# Blogging is sooo easy ;)
 
 
