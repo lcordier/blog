@@ -1,6 +1,7 @@
 # Blogging is sooo easy ;)
 
 
+* [2026-05-24](https://lcordier.github.io/blog/20260524) Shall we play a game?
 * [2025-10-11](https://lcordier.github.io/blog/20251011) Some good discussion...
 * [2025-02-01](https://lcordier.github.io/blog/20250201) Blue team in the 90's
 * [2025-01-13](https://lcordier.github.io/blog/20250113) Red team infiltrating the minds of little ones

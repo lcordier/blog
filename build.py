@@ -7,8 +7,8 @@ import datetime
 import os
 import re
 
-REGEX = re.compile('\d{8}.md')
-TAG = re.compile('<.*?>')
+REGEX = re.compile(r'\d{8}.md')
+TAG = re.compile(r'<.*?>')
 
 
 def strip_tags(line):
