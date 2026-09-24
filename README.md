@@ -10,3 +10,6 @@
 * [2024-01-03](https://lcordier.github.io/blog/20240103) It's engineers all the way down...
 * [2024-01-01](https://lcordier.github.io/blog/20240101) Announcing APP
 * [2023-12-31](https://lcordier.github.io/blog/20231231) The Gods must be crazy
+<br/><br/>
+[Subscribe to Update Notifications](https://blockchain.louiscordier.com/subscribe-notifications/)
+
